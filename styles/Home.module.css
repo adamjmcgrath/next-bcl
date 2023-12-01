@@ -11,7 +11,7 @@
   display: inherit;
   justify-content: right;
   align-items: inherit;
-  font-size: x-large;
+  font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
@@ -67,7 +67,7 @@
 .card p {
   margin: 0;
   opacity: 0.6;
-  font-size: x-large;
+  font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
 }
@@ -156,7 +156,7 @@
   }
 
   .description {
-    font-size: x-large;
+    font-size: 0.8rem;
   }
 
   .description a {
