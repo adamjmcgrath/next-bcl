@@ -1,4 +1,4 @@
-import { initAuth0, SessionStore } from '@auth0/nextjs-auth0';
+import { initAuth0, SessionStore } from '@auth0/nextjs-auth0/edge';
 
 export class Store implements SessionStore {
   public store: { [key: string]: any };
